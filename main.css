@@ -1,0 +1,60 @@
+table tr {
+  background-color: #7d8a2e;
+}
+table tr.even,
+table tr:nth-child(even) {
+  background-color: #fff;
+}
+table td {
+  padding: 4px 10px;
+}
+body {
+  background-color: #c9d787;
+}
+header {
+  width: 100%;
+  background-color: #7d8a2e;
+  height: 200px;
+  border: 5px #ff8598 solid;
+}
+h1 {
+  color: #ff8598;
+  font-size: 100px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+div {
+  height: 750px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffc0a9;
+  border: 5px #7d8a2e solid;
+}
+div ul {
+  background-color: #ffe4c4;
+  width: 75%;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+div ul li {
+  color: #ff8598;
+  font-size: 50px;
+}
+div ul li:hover {
+  color: #ff1136;
+}
+table {
+  width: 50%;
+  font-size: 40px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 2px solid #7d8a2e;
+  color: #ff8598;
+}
+tr:hover {
+  color: #b6c654;
+}
+tr {
+  background-color: #7d8a2e;
+}

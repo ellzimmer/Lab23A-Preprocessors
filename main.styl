@@ -1,0 +1,88 @@
+myGreen = #C9D787
+dkGreen = #7D8A2E
+dkRose = #FF8598
+lightRose = #FFC0A9
+
+stripe(even = #fff, odd = dkGreen)
+   tr
+     background-color odd
+     &.even
+     &:nth-child(even)
+      background-color even
+       
+table
+   stripe()
+   td
+     padding 4px 10px
+
+// table#users
+//    stripe(#303030, #494848)
+//    td
+//      color white
+
+generate-arrow(arrow-width = 10px)
+    &:before, &:after
+        content ' '
+        height: 0
+        position absolute
+        width: 0
+        border arrow-width solid transparent
+
+
+body
+	background-color myGreen
+	
+header
+	width 100%
+	background-color dkGreen
+	height 200px
+	border 5px dkRose solid
+
+h1
+	color dkRose
+	font-size 100px
+	margin-left 30px
+	margin-top 30px
+	
+div
+	height 750px
+	width 80%
+	margin 0 auto
+	background-color lightRose
+	border 5px dkGreen solid
+	ul
+		background-color bisque
+		width 75%
+		height 300px
+		margin 0 auto
+		margin-top 25px
+		li
+			color dkRose
+			font-size 50px
+			
+		li:hover
+			color darken(dkRose, 30%)
+
+table
+	width 50%
+	// background-color bisque
+	font-size 40px
+	margin 0 auto
+	margin-top 50px
+	border 2px solid dkGreen
+	color dkRose
+	
+tr:hover
+	color lighten(dkGreen, 30%)
+
+tr
+	background-color dkGreen
+	
+
+
+
+
+
+       
+
+			
